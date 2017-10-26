@@ -1,0 +1,7 @@
+.headerPicture{
+  background-image: url(../images/background/hack1.jpg);
+  height: 35rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

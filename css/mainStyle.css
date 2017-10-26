@@ -31,9 +31,6 @@
   background-color: #707372 !important;
 }
 
-.carouselPicture{
-  height: 30rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+body{
+  padding-top: 56px; /* The navbar takes up 56px */
 }
