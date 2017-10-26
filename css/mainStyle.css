@@ -1,0 +1,39 @@
+.text-ISUcardinal{
+  color: #C8102E !important;
+}
+
+.text-ISUgold{
+  color: #F1BE48 !important;
+}
+
+.text-ISUblue{
+  color: #006BA6 !important;
+}
+
+.text-ISUgray{
+  color: #707372 !important;
+}
+
+.bg-ISUcardinal{
+  background-color: #C8102E !important;
+}
+
+.bg-ISUgold{
+  background-color: #F1BE48 !important;
+}
+
+.bg-ISUblue{
+
+  background-color: #006BA6 !important;
+}
+
+.bg-ISUgray{
+  background-color: #707372 !important;
+}
+
+.carouselPicture{
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

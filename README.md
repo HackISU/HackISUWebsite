@@ -1,2 +1,2 @@
-# HackISUWebsite
-Website repository for www.hackisu.org
+#HackISUWebsite
+Website Repository for www.hackisu.org
