@@ -28,9 +28,29 @@
 }
 
 .bg-ISUgray{
-  background-color: #707372 !important;
+  background-color: #f7f7f7 !important;
 }
 
 body{
   padding-top: 56px; /* The navbar takes up 56px */
+}
+
+h1, h2, h3, h4 h5, h6 {
+    /*text-transform: uppercase;*/
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+h3.section-subheading {
+    /*margin-bottom: 75px;*/
+    text-transform: none;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
 }
