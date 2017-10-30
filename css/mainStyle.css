@@ -6,11 +6,11 @@
   color: #F1BE48 !important;
 }
 
-.text-ISUblue{
+.text-hackblue{
   color: #006BA6 !important;
 }
 
-.text-ISUgray{
+.text-hackgray{
   color: #707372 !important;
 }
 
@@ -22,12 +22,12 @@
   background-color: #F1BE48 !important;
 }
 
-.bg-ISUblue{
+.bg-hackblue{
 
   background-color: #006BA6 !important;
 }
 
-.bg-ISUgray{
+.bg-hackgray{
   background-color: #f7f7f7 !important;
 }
 
@@ -53,4 +53,8 @@ h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+}
+
+.jumbotron{
+  margin-bottom: 0;
 }
