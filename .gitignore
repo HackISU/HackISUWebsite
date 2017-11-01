@@ -1,1 +1,7 @@
-/BOOTSTRAP/
+/test/BOOTSTRAP/
+
+admin/*
+
+*.xml
+
+*.iml
