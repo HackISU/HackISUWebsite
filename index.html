@@ -33,10 +33,10 @@
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
-  <script>
+  <!-- <script>
     var REDIRECT_URL = "http://hackisu.org/callback.html";
     var CLIENT_ID = "5785822e529eb55131e76dce4822f25b06cf665cd47aa902ce3fa28a19e59d05";
-  </script>
+  </script> -->
 </head>
 
 <body id="page-top" class="index">
@@ -73,8 +73,7 @@
           <li><a class="page-scroll" href="#timeline">Timeline</a></li>
           <li><a class="page-scroll" href="#faq">FAQ</a></li>
 
-          <!-- TODO Uncomment when registration starts -->
-          <!-- <li class="apply" style="cursor:pointer"> <a onclick="toMLH()">Register</a> </li> -->
+          <li class="apply" style="cursor:pointer"> <a onclick="toMLH()">Register</a> </li>
           <li class="apply" style="cursor:pointer"> <a href="https://hackisuviii.slack.com">Join Our Slack!</a>
         </ul>
       </div>
@@ -92,20 +91,20 @@
             <img style="width:25%" src="./img/hackisu/HackSquirrel_Official.png" />
             <img style="width:55%" src="./img/hackisu/hackisu-typography-1.png" />
           </div>
-          <!-- <span class="intro-lead-in icon-red">October 20th - 22nd, 2017</span> -->
+          <span class="intro-lead-in icon-red">March 23th - 25nd, 2018</span>
 
 
-            <h2 class="section-heading icon-red">Thanks for attending the Fall HackISU! Check back soon to register for the spring event!</h2>
+          <!-- <h2 class="section-heading icon-red">Thanks for attending the Fall HackISU! Check back soon to register for the spring event!</h2> -->
 
           <!-- Submit Project Button -->
 
-          <div class="row" style="padding-top:10px">
+          <!-- <div class="row" style="padding-top:10px">
             <a href="https://hackisu-viii.devpost.com/" class="buttonMainPage" role="button" style="margin-top:10px">See our Winners!</a>
-          </div>
+          </div> -->
 
           <!-- Register Button -->
-          <!-- <h2 class="section-heading icon-red">Summoning fellow hackers!</h2>
-  		    <button onclick="toMLH()" class="button" href="" style="margin-top:10px">Register Here!</button> -->
+          <h2 class="section-heading icon-red">Summoning fellow hackers!</h2>
+  		    <button onclick="toMLH()" class="button" href="" style="margin-top:10px">Register Here!</button>
 
           <!-- Registration Over Heading -->
           <!-- <h2 class="section-heading icon-red">Registration Over!</h2> -->
@@ -330,9 +329,9 @@
         <div class="col-sm-4 faq_wrapper">
           <div class="highlight-red-box">
             <h4 class="icon-red">What is a hackathon?</h4>
-            <p>Major League Hacking &copy defines a hackthon as an “invention marathon”.
+            <p>Major League Hacking &copy; defines a hackthon as an “invention marathon”.
               Anyone who has an interest in technology attends a hackathon to learn,
-              build &amp share their creations over the course of a weekend in a relaxed and welcoming atmosphere.
+              build &amp; share their creations over the course of a weekend in a relaxed and welcoming atmosphere.
               You don’t have to be a programmer and you certainly don’t have to be majoring in Computer Science.</p>
           </div>
         </div>
@@ -526,7 +525,7 @@
     var cans = document.getElementsByClassName('all');
 
     var toMLH = function() {
-      window.location.assign("http://my.mlh.io/oauth/authorize?client_id=" + "76078568bf3d8609b9b2bf9fc476ee17b02611a8c98b400c8f40bb7dd56dd58b" + "&redirect_uri=" + "https%3A%2F%2Fhackisu.org%2Fcallback.html" + "&response_type=token");
+      window.location.assign("http://my.mlh.io/oauth/authorize?client_id=" + "3e2c46cf48f942d94c7aa1c04c5c0186fbfb2dbb1822a21928a7bcf1372bc51e" + "&redirect_uri=" + "https%3A%2F%2Fhackisu.org%2Fcallback.html" + "&response_type=token");
 
       // URL for 'Register' button
       // http://my.mlh.io/oauth/authorize?client_id="+CLIENT_ID+"&redirect_uri="+REDIRECT_URL+"&response_type=token

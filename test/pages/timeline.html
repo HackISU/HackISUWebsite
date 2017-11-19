@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This tag is to refresh the page. content data tag is to set the number of seconds -->
+    <!-- <meta http-equiv="refresh" content="10" /> -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="..">
+
+    <!-- TODO: Change title to reflect the current page -->
+    <title>HackISU - Timeline</title>
+
+    <!-- Bootstrap Core CSS v4 Beta 2-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts and icons -->
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/mainStyle.css">
+    <link rel="stylesheet" href="../css/timeline.css">
+
+  </head>
+
+  <body>
+    <!-- Navagation Bar ------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sponsors</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Timeline <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Register/Slack</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header jumbotron ----------------------------------------------------->
+    <header>
+      <!-- TODO: Optional: add a picture to reflect the current page.
+        Make a class obejct in the page's css file. Use index.css as a reference -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Timeline - Test</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Body ------------------------------------------------------------>
+
+    <section id="timeline">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-2 text-center">
+            <h5>Key:</h5>
+            <hr>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <h5 class="date">Friday, October 20th</h5>
+
+            <ul>
+              <li class="general">
+                <a id="timeline-one-collapse" data-toggle="collapse" href="#timelineOne" aria-expanded="true" aria-controls="timelineOne" style="text-decoration:none">
+                  <!-- <span><i class="fa fa-angle-down" aria-hidden="true"></i></span> -->
+                  <span class="time">5:00PM - 7:00PM</span>
+                  <span class="event">Check In</span>
+                  <span class="location">Main Hangar</span>
+                </a>
+                <div id="timelineOne" class="collapse" role="tabpanel">
+                  <div style="color: black; font-size: 50%; margin-left: 2.5rem;">
+                    <p>Paste paragraph here!</p>
+                  </div>
+                </div>
+              </li>
+              <hr>
+
+              <li class="general">
+                <span class="time">7:00PM - 7:30PM</span>
+                <span class="event">Opening Presentation</span>
+                <span class="location">Main Hangar</span>
+              </li>
+              <hr>
+
+              <li class="food">
+                <span class="time">7:30PM - 8:00PM</span>
+                <span class="event">Opening Presentation</span>
+                <span class="location">Main Hangar</span>
+              </li>
+              <hr>
+
+              <li class="general">
+                <span class="time">8:00PM</span>
+                <span class="event">Coding Begins</span>
+                <span class="location">Main Hangar</span>
+              </li>
+              <hr>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer --------------------------------------------------------------->
+    <section id="footer">
+      <footer class="bg-dark">
+        <div class="container text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item mt-3"><a href="https://twitter.com/hackisu"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com/HackISU"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/hack_isu"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.medium.com/@hackiowastate"><i class="fa fa-medium"></i></a></li>
+            <!-- Will need to be updated every hackathon. Comment out a couple weeks after hackathon -->
+            <li class="list-inline-item"><a href="https://hackisuviii.slack.com"><i class="fa fa-slack"></i></a></li>
+          </ul>
+
+          <span class="copyright text-light">&hearts; - HackISU Committee 2017</span>
+        </div>
+
+      </footer>
+    </section>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jquery.js, then popper.js, thenbootstrap.js -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
+
+    <!-- <script src="../js/jquery-3.2.1.js"></script> -->
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+  </body>
