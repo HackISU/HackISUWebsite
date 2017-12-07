@@ -23,7 +23,6 @@
 }
 
 .bg-hackblue{
-
   background-color: #006BA6 !important;
 }
 
@@ -57,4 +56,16 @@ h3.section-subheading {
 
 .jumbotron{
   margin-bottom: 0;
+}
+
+.fa-font{
+  font-size: 25px;
+  color: rgba(79, 221, 106, 1);
+}
+.fa-font:hover{
+  color: rgba(49, 128, 109, 1);
+}
+
+footer{
+  padding-bottom: 10px;
 }
