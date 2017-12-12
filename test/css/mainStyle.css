@@ -1,33 +1,9 @@
-.text-ISUcardinal{
-  color: #C8102E !important;
+.text-hackGreen1{
+  color: rgba(79, 221, 106, 1) !important;
 }
 
-.text-ISUgold{
-  color: #F1BE48 !important;
-}
-
-.text-hackblue{
-  color: #006BA6 !important;
-}
-
-.text-hackgray{
-  color: #707372 !important;
-}
-
-.bg-ISUcardinal{
-  background-color: #C8102E !important;
-}
-
-.bg-ISUgold{
-  background-color: #F1BE48 !important;
-}
-
-.bg-hackblue{
-  background-color: #006BA6 !important;
-}
-
-.bg-hackgray{
-  background-color: #f7f7f7 !important;
+.text-hackGreen2{
+  color: rgba(49, 128, 109, 1) !important;
 }
 
 body{
@@ -58,14 +34,15 @@ h3.section-subheading {
   margin-bottom: 0;
 }
 
-.fa-font{
+footer{
+  padding-bottom: 10px;
+}
+
+section#footer i{
   font-size: 25px;
   color: rgba(79, 221, 106, 1);
 }
-.fa-font:hover{
-  color: rgba(49, 128, 109, 1);
-}
 
-footer{
-  padding-bottom: 10px;
+section#footer i:hover{
+  color: rgba(49, 128, 109, 1);
 }

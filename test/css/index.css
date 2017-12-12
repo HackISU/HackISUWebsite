@@ -11,6 +11,18 @@ section#register .btn:hover{
   /*border-color: rgba(0,123,255, 1);*/
 }
 
+section#FAQ .card{
+  margin-bottom: 10px;
+}
+
+section#FAQ .card a{
+  color: rgba(79, 221, 106, 1);
+}
+
+section#FAQ .card a:hover{
+  color: rgba(49, 128, 109, 1);
+}
+
 .headerPicture{
   background-image: url(../images/background/headerWideShot.jpg);
   height: 42.25rem;
