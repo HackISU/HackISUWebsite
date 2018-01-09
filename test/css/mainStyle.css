@@ -7,7 +7,8 @@
 }
 
 body{
-  padding-top: 56px; /* The navbar takes up 56px */
+  /* The navbar takes up 56px */
+  /* padding-top: 56px;*/
 }
 
 h1, h2, h3, h4 h5, h6 {
@@ -28,6 +29,10 @@ h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+}
+
+.my-navbar{
+  background: rgba(0, 0, 0, .7);
 }
 
 .jumbotron{
