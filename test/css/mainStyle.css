@@ -6,15 +6,22 @@
   color: rgba(49, 128, 109, 1) !important;
 }
 
+.bg-gray{
+  background-color: #efefef;
+}
+
 body{
   /* The navbar takes up 56px */
-  /* padding-top: 56px;*/
+  /* padding-top: -56px; */
+
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h1, h2, h3, h4 h5, h6 {
     /*text-transform: uppercase;*/
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /* font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    /* font-weight: 700; */
+
 }
 
 h2.section-heading {
@@ -32,7 +39,7 @@ h3.section-subheading {
 }
 
 .my-navbar{
-  background: rgba(0, 0, 0, .7);
+  background: #343a40;
 }
 
 .jumbotron{
@@ -44,7 +51,15 @@ footer{
 }
 
 footer ul li{
-  margin: 1rem;
+  margin: 0 1rem;
+}
+
+footer ul li a{
+  color: rgb(79, 221, 106);
+}
+
+footer ul li a:hover{
+  color: rgb(49, 128, 109);
 }
 
 .btn{
@@ -54,20 +69,38 @@ footer ul li{
   font-size: 2rem;
   padding: 0.375rem 0.75rem;
 
-  -webkit-transition: all 1s ease-out;
+  -webkit-transition: all .4s ease-out;
   transition: all 0.4s ease-out;
 }
 
 .btn:hover{
-  color: black;
-  background-color: rgba(0, 225, 255, 0);
-  border-color: rgba(49, 128, 109, 1);
+  color: white;
+  background-color: rgba(79, 221, 106, .5);
+  border-color: rgba(79, 221, 106, .5);
 }
 
-.iconColor{
-  color: rgba(79, 221, 106, 1);
+#about{
+  padding: 56px 0 0;
+  margin: -56px 0 0;
 }
 
-.iconColor:hover{
-  color: rgba(49, 128, 109, 1);
+#FAQ{
+  padding: 56px 0 0;
+  margin: -56px 0 0;
 }
+
+#schedule{
+  padding: 56px 0 0;
+  margin: -56px 0 0;
+}
+
+#sponsors{
+  padding: 56px 0 0;
+  margin: -56px 0 0;
+}
+
+#location{
+  padding: 56px 0 0;
+  margin: -56px 0 0;
+}
+
