@@ -1,0 +1,44 @@
+section#FAQ .card{
+  margin-bottom: 10px;
+}
+
+section#FAQ .card a{
+  color: rgba(79, 221, 106, 1);
+}
+
+section#FAQ .card a:hover{
+  color: rgba(49, 128, 109, 1);
+}
+
+.background{
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)), url(../images/background/headerWideShot.jpg);
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#about{
+  padding: 56px 0 0;
+  margin: -56px 0 0;
+}
+
+#FAQ{
+  padding: 56px 0 0;
+  margin: -56px 0 0;
+}
+
+#schedule{
+  padding: 56px 0 0;
+  margin: -56px 0 0;
+}
+
+#sponsors{
+  padding: 56px 0 0;
+  margin: -56px 0 0;
+}
+
+#location{
+  padding: 56px 0 0;
+  margin: -56px 0 0;
+}
