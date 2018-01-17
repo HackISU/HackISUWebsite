@@ -11,8 +11,16 @@
 }
 
 .fontBorder {
-  color: white;
+  /* color: white; */
   text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+}
+
+.fontBorderLink{
+  color: rgb(0, 255, 128);
+}
+
+.fontBorderLink:hover{
+  color: rgb(0, 196, 98);
 }
 
 body{

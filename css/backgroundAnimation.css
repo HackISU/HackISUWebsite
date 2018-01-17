@@ -1,35 +1,59 @@
 body {
-    background: linear-gradient(30deg, #4fdd6a, #31806d, #dbea87, #398948);
+    /* width: 100wh;
+    height: 90vh; */
+    color: #fff;
+    background: linear-gradient(-45deg, #398948, #31806d, rgba(79, 221, 106, 1));
     background-size: 800% 800%;
-
-    -webkit-animation: HackISU 30s ease infinite;
-    -moz-animation: HackISU 30s ease infinite;
-    -o-animation: HackISU 30s ease infinite;
-    animation: HackISU 30s ease infinite;
-
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    -o-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
 }
 
-@-webkit-keyframes HackISU {
-    0%{background-position:97% 0%}
-    50%{background-position:4% 100%}
-    100%{background-position:97% 0%}
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
-@-moz-keyframes HackISU {
-    0%{background-position:97% 0%}
-    50%{background-position:4% 100%}
-    100%{background-position:97% 0%}
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
-@-o-keyframes HackISU {
-    0%{background-position:97% 0%}
-    50%{background-position:4% 100%}
-    100%{background-position:97% 0%}
+@-o-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
-@keyframes HackISU { 
-    0%{background-position:97% 0%}
-    50%{background-position:4% 100%}
-    100%{background-position:97% 0%}
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
-    

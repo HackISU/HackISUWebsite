@@ -1,3 +1,11 @@
+.navText{
+  color: rgba(255,255,255,.5);
+}
+.navText:hover{
+  color: rgba(255,255,255,.8);
+  background-color: transparent;
+}
+
 section#FAQ .card{
   margin-bottom: 10px;
 }
