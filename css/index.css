@@ -19,7 +19,7 @@ section#FAQ .card a:hover{
 }
 
 .background{
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)), url(../images/background/headerWideShot.jpg);
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.15)), url(../images/background/headerWideShot.jpg);
   height: 50rem;
   background-size: cover;
   background-repeat: no-repeat;
