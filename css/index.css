@@ -26,6 +26,17 @@ section#FAQ .card a:hover{
   background-position: 50% 50%;
 }
 
+.scheduleBackground:hover{
+  background-color: #eeeeee;
+}
+
+.topBorder{
+  border-color: #818181;
+  border-width: 1.5px;
+}
+
+
+
 #about{
   padding: 56px 0 0;
   margin: -56px 0 0;
