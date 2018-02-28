@@ -26,9 +26,6 @@ section#FAQ .card-body p{
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-section#FAQ .card a:hover{
-  /* color: rgba(49, 128, 109, 1); */
-}
 
 .background{
   background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.15)), url(../images/background/headerWideShot.jpg);
@@ -41,10 +38,6 @@ section#FAQ .card a:hover{
 .greenBackgroundColor{
   background-color: rgba(49, 128, 109, 1);
 }
-
-/* .scheduleBackground:hover{
-  background-color: #eeeeee;
-} */
 
 .topBorder{
   border-color: #464646;
