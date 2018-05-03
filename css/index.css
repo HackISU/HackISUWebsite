@@ -11,7 +11,7 @@ body{
 }
 
 section#FAQ .card{
-  background-color: #4fdd6a;
+  background-color: rgba(0,203,166,1);
   margin-bottom: 10px;
 }
 

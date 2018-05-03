@@ -1,9 +1,9 @@
 .text-hackGreen1{
-  color: rgba(79, 221, 106, 1) !important;
+  color: rgba(0,203,166,1) !important;
 }
 
 .text-hackGreen2{
-  color: rgba(49, 128, 109, 1) !important;
+  color: rgba(0,173,166,1) !important;
 }
 
 .bg-gray{
@@ -16,11 +16,11 @@
 }
 
 .fontBorderLink{
-  color: rgb(0, 255, 128);
+  color: rgba(0,203,166,1);
 }
 
 .fontBorderLink:hover{
-  color: rgb(0, 196, 98);
+  color: rgba(0,173,166,1);
 }
 
 body{
@@ -63,11 +63,11 @@ footer ul li{
 }
 
 a{
-  color: rgb(79, 221, 106);
+  color: rgba(0,203,166,1);
 }
 
 a:hover{
-  color: rgb(49, 128, 109);
+  color: rgba(0,173,166,1);
 }
 
 /* footer ul li a{
@@ -80,8 +80,8 @@ footer ul li a:hover{
 
 .btn{
   color: white;
-  background-color: rgba(79, 221, 106, 1);
-  border-color: rgba(79, 221, 106, 1);
+  background-color:rgba(0,203,166,1);
+  border-color: rgba(0,203,166,1);
   font-size: 2rem;
   padding: 0.375rem 0.75rem;
   cursor: pointer;
@@ -95,16 +95,16 @@ footer ul li a:hover{
 
 .btn:hover{
   color: white;
-  background-color: rgba(79, 221, 106, .5);
-  border-color: rgba(79, 221, 106, .5);
+  background-color: rgba(0,173,166,1);
+  border-color: rgba(0,173,166,1);
 }
 
 ::selection{
   color: white;
-  background-color: rgba(49, 128, 109, 1);
+  background-color: rgba(0,173,166,1);
 }
 
 ::-moz-selection{
   color: white;
-  background-color: rgba(49, 128, 109, 1);
+  background-color: rgba(0,173,166,1);
 }
