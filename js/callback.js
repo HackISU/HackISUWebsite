@@ -25,7 +25,7 @@ var addData = function addData(data) {
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {
-            window.location.assign("http://hackisu.org/success.html");
+            window.location.assign("https://hackisu.org/success.html");
         }
     });
 }
