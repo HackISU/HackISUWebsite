@@ -25,6 +25,9 @@
             color: white;
             text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
         }
+        #almost-done {
+            color: rgba(0,203,166,1);
+        }
     </style>
 </head>
 
@@ -38,10 +41,13 @@
 
         <div class="row">
             <div class="offset-md-2 col-md-8">
-                <h3>You've almost reqistered for Spring 2018 HackISU!</h3>
-                <p>By registering for this event, you are agreeing to follow the
+                <div id="almost-done" class="alert alert-success" role="alert">
+                    <h1 class="alert-heading">ALMOST DONE!</h1>
+                    <hr>
+                    <p class="mb-0">By registering for this event, you are agreeing to follow the
                     <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" class="fontBorder fontBorderLink">MLH Code of Conduct.</a>
                     We want HackISU to be a safe space for everyone, and the Code of Conduct helps accomplish that goal.</p>
+                </div>
             </div>
         </div>
 
