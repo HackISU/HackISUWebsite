@@ -20,12 +20,12 @@ var addData = function addData(data) {
     })
     $.ajax({
         type: "POST",
-        url: "https://hackisu-spring2018.herokuapp.com/user",
+        url: "https://hackisu-x.herokuapp.com/user",
         data: strung,
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {
-            window.location.assign("http://hackisu.org/success.html");
+            window.location.assign("https://hackisu.org/success.html");
         }
     });
 }
