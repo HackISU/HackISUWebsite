@@ -1,4 +1,4 @@
-# HackISU Website
+# SquirrelHacks Website
 
 Website repository for [https://hackisu.stuorg.iastate.edu](https://hackisu.stuorg.iastate.edu)
 
