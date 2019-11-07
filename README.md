@@ -1,6 +1,6 @@
 # HackISU Website
 
-Website repository for [https://www.hackisu.org](https://www.hackisu.org)
+Website repository for [https://hackisu.stuorg.iastate.edu](https://hackisu.stuorg.iastate.edu)
 
 ---
 
@@ -9,4 +9,4 @@ Website repository for [https://www.hackisu.org](https://www.hackisu.org)
 Originally built by: [Joseph Musser](https://github.com/joemussa)<br>
 Currently maintained by: [Joseph Musser](https://github.com/joemussa)
 
-Built using Bootstrap v4 Beta 2
+Built using Bootstrap v4
