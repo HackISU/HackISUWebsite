@@ -1,171 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- <meta http-equiv="refresh" content="10" /> -->
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="./images/hackisu/2018/Fall/Squirrel-F18.png">
+<head>
 
-    <title>HackISU - Midwest Hackathon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Bootstrap Core CSS v4 Beta 2-->
-    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <title>Squirrel Hacks - Iowa's Largest Hackathon</title>
+  <link rel="icon" type="image/png" href="img/HackISU/Yellow.png" >
 
-    <!-- Custom fonts and icons -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/backgroundAnimation.css">
-    <link rel="stylesheet" href="./css/mainStyle.css">
-    <link rel="stylesheet" href="./css/index.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
-  </head>
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-  <body>
-    <!-- Navagation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top my-navbar">
-      <a class="navbar-brand" href="#">HackISU</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse"
-              data-target="#navbarNav" aria-controls="navbarNav"
-              aria-expanded="false" aria-label="Toggle navigation">
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+</head>
+
+<!-- MLH Banner -->
+<!-- <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-gray.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a> -->
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Squirrel Hacks</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#sponsorship">Sponsorship</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#location">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Connect With Us</a>
+          </li>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav navText">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#FAQ">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#schedule">Agenda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#sponsors">Sponsors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#location">Location</a>
-          </li>
-          <!-- Coming soon(tm) -->
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#album">Album</a>
-          </li> -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" 
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social Media</a>
+          <div style="border-left:3px solid #ffc107;height:20px;"></div>
 
-            <div class="dropdown-menu" style="background: rgba(0, 0, 0, .7);" aria-labelledby="dropdownMenuLink">
-              <a href="https://twitter.com/hackisu" target="_blank" class="dropdown-item navText">Twitter</a>
-              <a href="https://www.snapchat.com/add/HackISU" target="_blank" class="dropdown-item navText">Snapchat</a>
-              <a href="https://facebook.com/HackISU" target="_blank" class="dropdown-item navText">Facebook</a>
-              <a href="https://instagram.com/hack_isu" target="_blank" class="dropdown-item navText">Instagram</a>
-              <a href="https://www.linkedin.com/company/hackisu-cymake" target="_blank" class="dropdown-item navText">LinkedIn</a>
-              <a href="https://medium.com/@hackiowastate" target="_blank" class="dropdown-item navText">Medium</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="agenda.html" target="_blank">Agenda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://discord.gg/jfPG5Ex">Join Our Discord!</a>
+            <a class="nav-link js-scroll-trigger" href="prizes.html" target="_blank">Prizes</a>
           </li>
-          
+
+          <div style="border-left:3px solid #ffc107;height:20px;"></div>
+
+          <li class="nav-item">
+            <a href="https://discord.gg/jfPG5Ex" target="_blank"><i class="fab fa-discord pl-3"></i></a>
+          </li>
         </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- Header jumbotron -->
-    <section id="header" class="">
-      <header>
-        <div class="jumbotron jumbotron-fluid bg-light background">
-          <!-- MLH Badge--> <!--  -->
-          <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" 
-          href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=gray" 
-          target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-gray.svg" 
-          alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
+  <!-- Masthead -->
+  <header class="masthead">
+      <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:56px;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-gray.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a>
 
-          <div class="container text-white" style="margin-top:150px">
-
-            <div class="row">
-              <div class="col-md-12 text-center" style="margin-top:-70px">
-                <img src="./images/hackisu/2018/Fall/Squirrel-X.png" alt="HackSquirrel" style="width:25%">
-                <img src="./images/hackisu/2018/Fall/HackText-TealTransparent.png" alt="HackISU" style="width:40%">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 text-center mb-5">
-                <h3 class="fontBorder">Iowa State’s Premier Hackathon & Iowa’s Largest Hackathon!</h3>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 text-center mb-5">
-                <!-- <button onClick="toMLH()" class="btn" role="button">Register Now</button> -->
-                <a href="https://hackisu-x-fall-2018.devpost.com/submissions" class="btn", role="button", target="_target">Winners</a>
-                <!-- <a href="https://hackisu-ix-spring-2018-6348.devpost.com/submissions" class="btn" role="button" target="_blank">View the Winners</a> -->
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 text-center mb-5"> 
-                <h3 class="fontBorder">Join us for the 10th HackISU!</h3>
-                <h4 class="fontBorder">October 19-21, 2018</h4>
-                <h5 class="fontBorder">Vermeer Applied Technology Hub/ ISU Startup Factory</h5>
-                <!-- <a href="prizelist.html" class="btn" role="button" style="font-size: 1.25rem">Prize Categories</a> -->
-
-                <!-- <h4>Thank you for attending the ninth HackISU!</h4> -->
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 text-center">
-              </div>
-            </div>
-            
-
-          </div>
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <img src="img\HackISU\sh_text_grey.png" class="img-fluid" alt="" srcset="">
+          <hr class="divider my-4">
         </div>
-      </header>
-    </section>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light">Join us for Iowa State's 11th Hackathon!</p>
+          <p class="text-white-75 font-weight-light mb-5">November 1st - 3rd, 2019</p>
+          <a class="btn btn-primary btn-xl w-50" href="https://hackisu-xi.hackerearth.com/" target="_blank">Register at Hacker Earth</a>
+          <a class="btn btn-primary btn-xl w-50 mt-4" href="https://squirrelhacks.devpost.com" target="_blank">Submit to Devpost</a>
+          <!-- <a class="btn btn-secondary btn-xl w-50 mt-4" href="https://discord.gg/jfPG5Ex" target="_blank">Join Our Discord!</a> -->
 
-    <!-- About Section -->
-    <section id="about" style="box-shadow: inset 0px 0px 8px 3px rgba(0,0,0,0.2);">
-      <div class="container p-3">
-        <div class="row">
-          <div class="offset-md-2 col-md-8 text-center">
-            <h2 class="section-heading">Welcome to HackISU!</h2>
-            <h5>Our mission is to provide a welcoming and supportive environment to
-              all students, new and old, who are interested in learning something
-              new. HackISU strives to connect students with opportunities to
-              experience technology in a rapidly growing technology based world.</h5>
-          </div>
-        </div>
-        <div class="row pb-3">
-          <div class="col-md-12 text-center">
-            <a href="https://hackisu.org/about.html" class="btn" style="font-size: 1.5rem" role="button">Meet the Team</a>
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </header>
 
-    <!-- FAQ Section -->
-    <section id="FAQ" class="" style="background-color: #2F4F4F;">
-      <div class="container p-3">
-        <div class="row">
-          <div class="col-md-12 text-center ">
-            <h2 class="section-heading">FAQ</h2>
-            <h3 class="pb-3 section-subheading ">Click below to learn more</h3>
-          </div>
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-secondary mt-0">About Us</h2>
+          <hr class="divider light my-4">
+          <p class="h5 text-black-50 mb-4">Our mission is to provide a welcoming and supportive environment to all students, new and old, who are interested in learning something new. Squirrel Hacks strives to connect students with opportunities to experience new technologies in a rapidly growing technology based world.</p>
+          <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="row">
+  <!-- FAQ Section -->
+  <section class="page-section" id="faq">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-secondary mt-0">FAQ</h2>
+          <hr class="divider my-4">
+        </div>
+      </div>
+
+      <!-- FAQ Cards -->
+      <div class="row">
           <!-- FAQ Column 1 -->
           <div class="offset-md-1 col-md-5">
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading1">
-                <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                <p class="mb-0 text-center h5 ">
+                  <a data-toggle="collapse" href="#collapse1" aria-expanded="true" aria-controls="collapse1" class="text-secondary">
                     What is a hackathon?
                   </a>
                 </p>
@@ -180,43 +144,43 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading2">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                  <a data-toggle="collapse" href="#collapse2" aria-expanded="true" aria-controls="collapse2" class="text-secondary" >
                     What if I'm new?
                   </a>
                 </p>
               </div>
               <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2">
                 <div class="card-body">
-                  <p>HackISU has great opportunities for people that are new to programming.
+                  <p>Squirrel Hacks has great opportunities for people that are new to programming.
                     In fact, we encourage new programmers to come because hackathons provide an opportunity to gain experience.
-                    As a new programmer at HackISU, you will learn a lot in a short
+                    As a new programmer at Squirrel Hacks, you will learn a lot in a short
                     amount of time, be challenged, and build something awesome.</p>
                 </div>
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading3">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                  <a data-toggle="collapse" href="#collapse3" aria-expanded="true" aria-controls="collapse3" class="text-secondary" >
                     Do I have to be an Iowa State student?
                   </a>
                 </p>
               </div>
               <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3">
                 <div class="card-body">
-                  <p>No, HackISU is open to all enrolled undergraduate students in a university program.</p>
+                  <p>No, Squirrel Hacks is open to all enrolled undergraduate students in a university program.</p>
                 </div>
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading4">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                  <a data-toggle="collapse" href="#collapse4" aria-expanded="true" aria-controls="collapse4" class="text-secondary" >
                     Will there be travel reimbursement?
                   </a>
                 </h4>
@@ -229,10 +193,10 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading5">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                  <a data-toggle="collapse" href="#collapse5" aria-expanded="true" aria-controls="collapse5" class="text-secondary" >
                     Is there a place to sleep?
                   </a>
                 </h5>
@@ -246,10 +210,10 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading6">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                  <a data-toggle="collapse" href="#collapse6" aria-expanded="true" aria-controls="collapse6" class="text-secondary" >
                     What should I bring?
                   </a>
                 </h5>
@@ -265,10 +229,10 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading7">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                  <a data-toggle="collapse" href="#collapse7" aria-expanded="true" aria-controls="collapse7" class="text-secondary" >
                     How many people on a team?
                   </a>
                 </h5>
@@ -284,7 +248,7 @@
             <div class="card">
               <div class="card-header" role="tab" id="heading8">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                  <a data-toggle="collapse" href="#collapse8" aria-expanded="true" aria-controls="collapse8" class="text-secondary" >
                     Do I need a team or idea to sign up?
                   </a>
                 </h5>
@@ -303,10 +267,10 @@
           <!-- FAQ Column 2 -->
           <div class="col-md-5">
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading9">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                  <a data-toggle="collapse" href="#collapse9" aria-expanded="true" aria-controls="collapse9" class="text-secondary" >
                     Will there be food?
                   </a>
                 </h5>
@@ -324,10 +288,10 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading10">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                  <a data-toggle="collapse" href="#collapse10" aria-expanded="true" aria-controls="collapse10" class="text-secondary" >
                     Do I have to be there the entire time?
                   </a>
                 </h5>
@@ -340,11 +304,11 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading11">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse11" aria-expanded="true" aria-controls="collapse11">
-                    Can I start working before HackISU starts?
+                  <a data-toggle="collapse" href="#collapse11" aria-expanded="true" aria-controls="collapse11" class="text-secondary" >
+                    Can I start working before Squirrel Hacks starts?
                   </a>
                 </h5>
               </div>
@@ -358,10 +322,10 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading12">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse12" aria-expanded="true" aria-controls="collapse12">
+                  <a data-toggle="collapse" href="#collapse12" aria-expanded="true" aria-controls="collapse12" class="text-secondary" >
                     Who can participate?
                   </a>
                 </h5>
@@ -379,10 +343,10 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading13">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse13" aria-expanded="true" aria-controls="collapse13">
+                  <a data-toggle="collapse" href="#collapse13" aria-expanded="true" aria-controls="collapse13" class="text-secondary" >
                     How does judging work?
                   </a>
                 </h5>
@@ -395,10 +359,10 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card mb-2 ">
               <div class="card-header" role="tab" id="heading14">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse14" aria-expanded="true" aria-controls="collapse14">
+                  <a data-toggle="collapse" href="#collapse14" aria-expanded="true" aria-controls="collapse14" class="text-secondary" >
                     Is there a code of conduct?
                   </a>
                 </h5>
@@ -414,7 +378,7 @@
             <div class="card">
               <div class="card-header" role="tab" id="heading15">
                 <p class="mb-0 text-center h5">
-                  <a data-toggle="collapse" href="#collapse15" aria-expanded="true" aria-controls="collapse15">
+                  <a data-toggle="collapse" href="#collapse15" aria-expanded="true" aria-controls="collapse15" class="text-secondary" >
                     Have more questions?
                   </a>
                 </h5>
@@ -422,631 +386,181 @@
               <div id="collapse15" class="collapse" role="tabpanel" aria-labelledby="heading15">
                 <div class="card-body">
                   <p>Email us at
-                    <a href="mailto:hi@hackisu.org">hi@hackisu.org</a></p>
+                    <a href="mailto:hi@hackisu.org">hackiowastate@gmail.com</a></p>
                 </div>
               </div>
             </div>
           </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsorship Section -->
+  <section class="page-section bg-primary" id="sponsorship">
+    <div class="container">
+      <h2 class="text-center mt-0">Sponsors</h2>
+      <hr class="divider light my-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+            <a class="btn btn-light btn-xl " href="sponsorship.html">Sponsorship FAQ</a>
         </div>
       </div>
-    </section>
-
-    <!-- Schedule -->
-    <section id="schedule" style="box-shadow: inset 0px 0px 8px 3px rgba(0,0,0,0.2);">
-      <div class="container p-3">
-        <div class="row text-center">
-          <div class="col-md-12">
-            <h2 class="section-heading">Agenda</h2>
-            <!-- <h3 class="pb-3 section-subheading">Subject to change</h3> -->
-          </div>
+      <!-- Sponsor Row 1 -->
+      <div class="row pt-5">
+        <div class="col-md-4 text-center">
+          <a href="https://www.workiva.com/" target="_blank"><img src="./img/sponsor/workiva.png" alt="Workiva" class="img-fluid"></a>
         </div>
-
-        <div class="row text-center">
-          <div class="col-md-12">
-            <h4 class="pt-2">Check back in for HackISU 2019 schedule</h4>  
-          </div>
+        <div class="col-md-4 text-center">
+          <a href="https://www.vermeer.com/" target="_blank"><img src="./img/sponsor/vermeer.png" alt="Vermeer" class="img-fluid w-50"></a>
         </div>
-  
-        <!-- <div class="row">
-          <div class="col-lg-4">
-            <h5 class="text-center">Friday, October 19</h5>
-            <hr class="topBorder">
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>5:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Check-In Begins</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>7:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Opening Ceremonies</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>7:30 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Dinner</h6>
-                <h6>Mentor Meeting</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>8:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Coding Begins!</h6>
-                <h6>HackISU: Introduction to Android App Development: Connecting to REST API (beginner)</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>8:30 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Digital Women: Intro to Python (beginner)</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>9:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>HackISU: Intro To Rainmeter (beginner)</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>9:30 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Digital Women: Intro to Git (beginner)</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>10:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Corteva: From Satellites to Sequencing: Big Data in Modern Agriculture</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>10:30 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>HackISU - Trivia</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>11:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Raven: Snacks</h6>
-                <h6>Workiva: Making the First Step: Setting Up a Java Project using Maven and Git (beginner)</h6>
-              </div>
-            </div>
-          </div>
-  
-          <div class="col-lg-4">
-            <h5 class="text-center">Saturday, October 20</h5>
-            <hr class="topBorder">
-  
-            <div class="row ">
-              <div class="col-4">
-                <h6>2:30 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Snacks</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>6:00 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Snacks</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>9:00 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Breakfast</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>9:30 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Optum: The Promise of Internet of Things in Healthcare</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>10:30 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Rockwell Collins: Talking Flight with Your Career</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>11:30 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Zirous - Movie Trivia</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>12:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Lunch</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>12:30 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Raven: Autonomous Vehicles: Land, Marine, and Air up into the Stratosphere</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>1:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Granular: Learn How to Build a Fully Server-less Application using AWS Lambda and an Amazon Aurora DB</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>2:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Rockwell Collins: Minute to Win it Games</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>2:30 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Optum: Coffee Sponsorships</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>3:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Snacks & Optum: Who Am I?</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>4:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>HackISU - Diversity Talk</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>5:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Cerner: Population Health and Big Data</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>5:30 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Movie - Hacker's Choice</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>6:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Dinner</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>7:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Buildertrend: How A Simple Chrome Extension Can Make You a Better Gamer</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>8:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>HackISU - So you want to run a hackathon?</h6>
-                <p style="font-size: .75rem;">Join Jamie and Ally to learn how you can run your own hackathon!</p>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>9:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>MLH: Cup Stacking</h6>
-                <p style="font-size: .75rem;">With our MLH Rep, Mitchell</p>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>9:30 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Snacks</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>10:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>HackISU: Devpost submission run-throug for hackers</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>11:00 PM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Movie - Hacker's choice</h6>
-              </div>
-            </div>
-          </div>
-  
-          <div class="col-lg-4">
-            <h5 class="text-center">Sunday, October 21</h5>
-            <hr class="topBorder">
-  
-            <div class="row ">
-              <div class="col-4">
-                <h6>1:00 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Snacks</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>4:30 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Snacks</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>8:00 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Coding Stops!</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>8:30 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Breakfast</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>9:00 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Submission to <a href="https://hackisu-x-fall-2018.devpost.com/">Devpost</a> Deadline</h6>
-              </div>
-            </div>
-
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>9:00 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Judges Meeting</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>9:30 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Judges Fair/Juding Begins</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>11:00 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Closing Ceremonies</h6>
-              </div>
-            </div>
-
-            <div class="row ">
-              <div class="col-4">
-                <h6>11:30 AM</h6>
-              </div>
-              <div class="col-8">
-                <h6>Lunch</h6>
-              </div>
-            </div>
-          </div>
-        </div> -->
+        <div class="col-md-4 text-center">
+          <a href="https://www.principal.com/" target="_blank"><img src="./img/sponsor/principal.png" alt="Princial Financial" class="img-fluid pt-4"></a>
+        </div>
       </div>
-    </section>
 
-    <!-- Sponsors -->
-    <section id="sponsors" style="background-color: #2F4F4F; box-shadow: inset 0px 0px 8px 3px rgba(0,0,0,0.2);">
-      <div class="container pt-3 pb-4">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-heading pb-3">Sponsors</h2>
-            <!-- <h5 class="pb-4">Check Back Soon!</h5> -->
-          </div>
+      <!-- Sponsor Row 2 -->
+      <div class="row pt-5">
+        <div class="col-md-4 text-center">
+          <a href="https://www.kingland.com/" target="_blank"><img src="./img/sponsor/kingland.png" alt="Kingland" class="img-fluid pt-4"></a>
         </div>
-
-        <div class="row pb-3">
-          <div class="col-md-12 text-center">
-            <a href="https://hackisu.org/sponsors.html" class="btn" style="font-size: 1.5rem" role="button">Sponsor FAQ</a>
-            <!-- <h6>Intrested in sponsoring? Email us at <a href="mailto:hi@hackisu.org">hi@hackisu.org</a></h6> -->
-          </div>
+        <div class="col-md-4 text-center">
+          <a href="https://www.corteva.com/" target="_blank"><img src="./img/sponsor/corteva.png" alt="Corteva" class="img-fluid w-50"></a>
         </div>
-
-        <div class="row">
-          <div class="offset-2 col-md-8 text-center">
-            <a href="https://rockwellcollins.com" target="_blank"><img src="./images/sponsors/RockwellCollins1.png" alt="RockwellCollins" style="width:65%" class="pb-5 pt-4"/></a>
-          </div>
+        <div class="col-md-4 text-center">
+          <a href="https://granular.ag/" target="_blank"><img src="./img/sponsor/granular.png" alt="Granular" class="img-fluid"></a>
         </div>
-
-        <div class="row">
-          <div class="offset-2 col-md-8 text-center">
-            <a href="https://www.buildertrend.com" target="_blank"><img src="./images/sponsors/buildertrend.png" alt="Buildertrend" style="width:75%; padding-bottom: 75px" /></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-2 col-md-8 text-center">
-            <a href="https://ravenind.com" target="_blank"><img src="./images/sponsors/raven.jpg" alt="Raven" style="width:55%; padding-bottom: 75px" /></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-md-2 col-md-4 text-center">
-            <a href="https://www.deere.com/en/index.html" target="_blank"><img src="./images/sponsors/johndeere.png" alt="John Deere" style="width: 95%" class="pt-4"</a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://www.kingland.com/" target="_blank"><img src="./images/sponsors/Kingland_White.PNG" alt="Kingland" style="width: 95%" class="pt-4"></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-md-2 col-md-4 text-center">
-            <a href="https://www.workiva.com/" target="_blank"><img src="./images/sponsors/Workiva.png" alt="Workiva" style="width: 95%" class="pt-4"></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://granular.ag/" target="_blank"><img src="./images/sponsors/Granular.png" alt="Granular" style="width: 45%" class="pt-4"></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-md-2 col-md-4 text-center">
-            <a href="https://www.optum.com/" target="_blank"><img src="./images/sponsors/OPTUM.png" alt="Optum" style="width: 85%; padding-bottom: 40px" class="pt-4"></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://www.cerner.com/" target="_blank"><img src="./images/sponsors/cerner.png" alt="Cerner" style="width: 95%" class="pt-4"></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-md-2 col-md-4 text-center">
-            <a href="https://www.corteva.com/" target="_blank"><img src="./images/sponsors/corteva.png" alt="Corteva" style="width:80%" class="pb-5 pt-4"/></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://www.vermeer.com/NA/en/N" target="_blank"><img src="./images/sponsors/vermeer2.png" alt="Cerner" style="width: 45%; padding-bottom: 55px" class="pt-4"></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-md-2 col-md-4 text-center">
-            <a href="https://qci.com/" target="_blank"><img src="./images/sponsors/QCI.png" alt="QCI" style="width: 35%" class="pt-2" ></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://www.businessolver.com/" target="_blank"><img src="./images/sponsors/businesssolver.png" alt="Businessolver" style="width: 70%" class="pt-2"></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-md-2 col-md-4 text-center">
-            <a href="https://spreetail.com/" target="_blank"><img src="./images/sponsors/spreetail.png" alt="Spreetail" style="width: 70%; padding-bottom: 20px" class="pt-2" ></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://www.principal.com/" target="_blank"><img src="./images/sponsors/PrincipalFinancial.png" alt="Principal" style="width: 55%" class="pt-2"></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-md-2 col-md-4 text-center">
-            <a href="https://www.hederahashgraph.com/" target="_blank"><img src="./images/sponsors/hashgraph.jpeg" alt="HashGraph" style="width: 55%" class="pt-2"></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://www.zirous.com/" target="_blank"><img src="./images/sponsors/zirous1.png" alt="Zirous" style="width: 70%" class="pt-2" ></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-heading pt-5">Partners</h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="offset-2 col-md-4 text-center">
-            <a href="http://www.isupark.org/" target="_blank"><img src="./images/sponsors/researchpark.png" alt="ISU Reserearch Park" style="width: 60%" class="pt-3"></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://mlh.io/" target="_blank"><img src="./images/sponsors/MLHColor.png" alt="Major League Hacking" style="width: 50%" class="pt-3"></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-heading pt-5">Special Thanks :</h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <a href="https://mixmax.com/" target="_blank"><img src="./images/sponsors/Mixmax_light.png" alt="Mixmax" style="width: 45%" class="pt-5"></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://gmelius.com" target="_blank"><img src="./images/sponsors/Gmelius_logo_rounded.png" alt="Gmelius" style="width: 20%" class="pt-5"></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://leepfrog.com/" target="_blank"><img src="./images/sponsors/leepfrog.svg" alt="leepfrog" style="width: 60%" class="pt-4"></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <a href="https://www.generalmills.com/" target="_blank"><img src="./images/sponsors/GeneralMills.png" alt="General Mills" style="width: 30%" class="pt-4"></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://www.google.com/" target="_blank"><img src="./images/sponsors/google.jpg" alt="Google" style="width: 40%" class="pt-4"></a>
-          </div>
-          <div class="col-md-4 text-center">
-            <a href="https://www.stickeryou.com/" target="_blank"><img src="./images/sponsors/StickerYou.png" alt="StickerYou" style="width: 40%" class="pt-4"></a>
-          </div>
-        </div>
-
       </div>
-    </section>
 
-    <!-- Location Section -->
-    <section id="location" style="box-shadow: inset 0px 0px 8px 3px rgba(0,0,0,0.2);">
-      <div class="container p-3">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-heading pb-3">Location</h2>
-            <h3 class="section-subheading">The Vermeer Applied Technology Hub/ISU Startup Factory</h3>
+      <!-- Sponsor Row 3 -->
+      <div class="row pt-5">
+        <div class="col-md-4 text-center">
+          <a href="https://www.globalvetlink.com/" target="_blank"><img src="./img/sponsor/globalvetlink.png" alt="Global Vet Link" class="img-fluid w-75 pt-2"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://www.deere.com/en/index.html" target="_blank"><img src="./img/sponsor/johndeere.PNG" alt="John Deere" class="img-fluid"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://www.rockwellcollins.com/" target="_blank"><img src="./img/sponsor/collins_black.png" alt="Collins Aerospace" class="img-fluid pt-3"></a>
+        </div>
+      </div>
+
+      <!-- Sponsor Row 4 -->
+      <div class="row pt-5">
+        <div class="offset-md-2 col-md-4 text-center">
+          <a href="https://www.optum.com/" target="_blank"><img src="./img/sponsor/optum_color.png" alt="Optum" class="img-fluid pt-4"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://www.ibm.com/" target="_blank"><img src="./img/sponsor/IBM_color.png" alt="IBM" class="img-fluid"></a>
+        </div>
+      </div>    
+
+      <!-- Sponsor Row 5 -->
+      <div class="row pt-5">
+        <div class="col-md-4 text-center">
+          <a href="https://www.leepfrog.com/" target="_blank"><img src="./img/sponsor/leepfrog_red.png" alt="Leepfrog" class="img-fluid w-50"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://www.ieee.org/" target="_blank"><img src="./img/sponsor/ieee_color_tagline.png" alt="IEEE: Advancing Technology for Humanity" class="img-fluid w-50 pt-1"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://qci.com/" target="_blank"><img src="./img/sponsor/qci_white.png" alt="QCI" class="img-fluid w-25"></a>
+        </div>
+      </div>    
+
+      <!-- Sponsor Row 6 -->
+      <h2 class="text-center mt-0 pt-5">Special Thanks To...</h2>
+      <hr class="divider light my-4">
+      <div class="row pt-5">
+        <div class="col-md-4 text-center">
+          <a href="https://www.mlh.io/" target="_blank"><img src="./img/sponsor/mlh_gray.png" alt="Major League Hacking" class="img-fluid w-50 pt-4"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://www.stickeryou.com/" target="_blank"><img src="./img/sponsor/stickeryou.png" alt="Sticker You" class="img-fluid w-50"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://www.kindsnacks.com/" target="_blank"><img src="./img/sponsor/kind.jpg" alt="KIND Snacks" class="img-fluid w-50"></a>
+        </div>
+      </div>
+
+      <!-- Sponsor Row 7 -->
+      <div class="row pt-5">
+        <div class="col-md-4 text-center">
+          <a href="https://www.hackerearth.com/" target="_blank"><img src="./img/sponsor/hackerearth_color.png" alt="hackerearth" class="img-fluid w-75 pt-4"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="https://www.landolakes.com/" target="_blank"><img src="./img/sponsor/landolakes.png" alt="Land O Lakes" class="img-fluid pt-4"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="http://www.isupark.org/" target="_blank"><img src="./img/sponsor/isurp_color.png" alt="ISU Research Park" class="img-fluid w-75"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+  <section class="page-section" id="location">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-secondary mt-0">Location</h2>
+          <hr class="divider my-4">
+          <p class="h5">The Vermeer Applied Technology Hub/ISU Startup Factory</p>
             <div class="pt-3">
               <div class="" onClick="style.pointerEvents='none'"></div>
               <iframe width="100%" height="450" frameborder="0" style="border:0" 
                 src="https://www.google.com/maps/embed/v1/place?q=2710+South+Loop+Drive,+Ames,+IA,+United+States&key=AIzaSyBmiEfQOAabHHUJJ8EdNjWRSddpdYUVW0A" 
                 allowfullscreen></iframe>
             </div>
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer  -->
-    <section id="footer" class="" style="box-shadow: inset 0px 0px 8px 3px rgba(0,0,0,0.2); background-color: #2F4F4F;">
-      <footer class="pt-4">
-        <div class="container text-center">
-          <ul class="list-inline">
-            <li class="list-inline-item mt-3"><a href="https://twitter.com/hackisu" target="_blank"><i class="fab fa-twitter fa-2x iconColor"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.snapchat.com/add/HackISU" target="_blank"><i class="fab fa-snapchat fa-2x iconColor"></i></a></li>
-            <li class="list-inline-item"><a href="https://facebook.com/HackISU" target="_blank"><i class="fab fa-facebook fa-2x iconColor"></i></a></li>
-            <li class="list-inline-item"><a href="https://instagram.com/hack_isu" target="_blank"><i class="fab fa-instagram fa-2x iconColor"></i></a></li>
-            <li class="list-inline-item"><a href="https://medium.com/@hackiowastate" target="_blank"><i class="fab fa-medium fa-2x iconColor"></i></a></li>
-            <li class="list-inline-item"><a href="https://discord.gg/jfPG5Ex" target="_blank"><i class="fab fa-discord fa-2x iconColor"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.linkedin.com/company/hackisu-cymake" target="_blank"><i class="fab fa-linkedin fa-2x iconColor"></i></a></li>
-          </ul>
-
-          <ul class="list-iniline">
-            <li class="list-inline-item"><a href="mailto:hi@hackisu.org">E-Mail Us</a></li>
-            <li class="list-inline-item"><a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH Code of Conduct</a></li>
-            <li class="list-inline-item"><a href="https://hackisu.org/sponsors.html" target="_blank">Become a Sponsor</a></li>
-          </ul>
-
-          <span class="copyright text-light">&hearts; - HackISU Committee 2018</span>
+  <!-- Contact Section -->
+  <section class="page-section bg-primary" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Let's Get In Touch!</h2>
+          <hr class="divider light my-4">
+          <p class="h5 text-black-50 mb-5">Want to sponsor us or have a question? Send us an email or visit our social media pages and we will get back to you soon as possible!</p>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 m-auto text-center">
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="mailto:hackiowastate@gmail.com"><i class="fas fa-envelope fa-3x mb-3 text-muted"></i></a></li>  
+              <li class="list-inline-item"><a href="https://twitter.com/hackisu" target="_blank"><i class="fab fa-twitter fa-3x mb-3 text-muted "></i></a></li>
+              <li class="list-inline-item"><a href="https://www.snapchat.com/add/HackISU" target="_blank"><i class="fab fa-snapchat fa-3x mb-3 text-muted "></i></a></li>
+              <li class="list-inline-item"><a href="https://facebook.com/HackISU" target="_blank"><i class="fab fa-facebook fa-3x mb-3 text-muted "></i></a></li>
+              <li class="list-inline-item"><a href="https://instagram.com/hack_isu" target="_blank"><i class="fab fa-instagram fa-3x mb-3 text-muted "></i></a></li>
+              <li class="list-inline-item"><a href="https://medium.com/@hackiowastate" target="_blank"><i class="fab fa-medium fa-3x mb-3 text-muted "></i></a></li>
+              <li class="list-inline-item"><a href="https://discord.gg/jfPG5Ex" target="_blank"><i class="fab fa-discord fa-3x mb-3 text-muted "></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/company/hackisu-cymake" target="_blank"><i class="fab fa-linkedin fa-3x mb-3 text-muted "></i></a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      </footer>
-    </section>
+  <!-- Footer -->
+  <footer class="bg-dark py-2">
+    <div class="container">
+      <div class=" text-center text-light">♥ - HackISU Committee 2019</div>
+    </div>
+  </footer>
 
-    <!-- Bootstrap core JavaScript ========================================= -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- jquery.js, then popper.js, then bootstrap.js -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="./js/bootstrap/jquery.min.js"><\/script>')</script>
-    <!-- <script src="./js/bootstrap/jquery-3.2.1.js"></script> -->
-    <script src="./js/bootstrap/popper.min.js"></script>
-    <script src="./js/bootstrap/bootstrap.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- toMLH() function -->
-    <script src="./js/mlh.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
 
-  </body>
+</body>
+
 </html>
