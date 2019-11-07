@@ -2,22 +2,16 @@
 
 Website repository for [https://hackisu.stuorg.iastate.edu](https://hackisu.stuorg.iastate.edu)
 
----
-
 ## Current live website:
 
 Originally built by: [Joseph Musser](https://github.com/joemussa)<br>
 Currently maintained by: [Joseph Musser](https://github.com/joemussa)
 
+---
+
 # [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
 
 [Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
-
-## Preview
-
-[![Creative Preview](https://startbootstrap.com/assets/img/screenshots/themes/creative.png)](https://blackrockdigital.github.io/startbootstrap-creative/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-creative/)**
 
 ## Status
 
@@ -26,14 +20,6 @@ Currently maintained by: [Joseph Musser](https://github.com/joemussa)
 [![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-creative.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-creative)
 [![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative)
 [![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/creative/)
-* Install via npm: `npm i startbootstrap-creative`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-creative)
 
 ## Usage
 
